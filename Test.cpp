@@ -17,9 +17,9 @@ struct global_fixture
 {
 	global_fixture()
 	{
-				out.open("Test_jks.xml");
-        assert( out.is_open() );
-        boost::unit_test::results_reporter::set_stream(out);
+			//	out.open("Test_jks.xml");
+      //  assert( out.is_open() );
+     //   boost::unit_test::results_reporter::set_stream(out);
 	      cout << "Prepare test data" << endl;
 	}
 	
