@@ -27,8 +27,8 @@ struct global_fixture
 			
 	    cout << "cleanup test environment..." << endl;
 	    out.close();
-	} 
-};*/
+	} */
+};
 
 
 // 定义全局夹具
