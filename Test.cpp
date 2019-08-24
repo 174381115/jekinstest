@@ -41,9 +41,11 @@ BOOST_FIXTURE_TEST_SUITE(test, global_fixture)
 
 BOOST_AUTO_TEST_CASE(case1)
 {      
-      BOOST_REQUIRE_MESSAGE(1>2, "exception occured.");    //带有require的，如果发生错误，则停止执行
+     // BOOST_REQUIRE_MESSAGE(1>2, "exception occured.");    //带有require的，如果发生错误，则停止执行
       BOOST_CHECK_MESSAGE(3>2, "exception occured.");           //带有check的，如果发生错误，会报错，但是会继续执行
-      BOOST_REQUIRE(1>0);
+     // BOOST_REQUIRE(1>0);
+      BOOST_CHECK(1>2);
+      BOOST_CHECK(4>7);
 }
 
 // 套件结束
